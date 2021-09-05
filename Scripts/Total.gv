@@ -1,0 +1,12 @@
+digraph Total {
+	node [color=lightblue2 height=.1 shape=record]
+	00 [label="<f0> a|<f1> 97|<f2> 00"]
+	01 [label="<f0> b|<f1> 98|<f2> 01"]
+	1 [label="<f0> c|<f1> 99|<f2> 1"]
+	"" [label="<f0> |<f1> |<f2> "]
+	0 [label="<f0> |<f1> |<f2> "]
+	"":f1 -> 0:f1
+	"":f1 -> 1:f1
+	0:f1 -> 00:f1
+	0:f1 -> 01:f1
+}
